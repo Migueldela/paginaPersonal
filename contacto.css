@@ -1,0 +1,45 @@
+
+ 
+   /* main {
+        margin: 0 10%;
+    }
+
+    main #wrapper {
+        width: 100%;
+    }
+
+    main #wrapper * {
+        width: 100%;
+    }
+     header{ display: flex; justify-content: center; flex-direction: column; align-items: center;}
+     div #item1{ display: flex;justify-content: center;}*/
+
+
+
+
+     #enviar:hover {transform: rotate(360deg); }
+form  #enviar {position: fixed;
+background-color: blue;transition: 3s;}
+header h1 { display: flex; justify-content: center;color:white;background-color: black;}
+#menu{display:flex ; flex-direction: column;}
+.subMenu1 { display: none;}
+#item1:hover .subMenu1 {display: block;}
+#item1{color:white;background-color: black;transition: 4s; margin-bottom: 10px;}
+.subMenu1 a {color:white;}
+.subMenu2 a {color: white;}
+#item2:hover .subMenu2 {display: block;}
+.subMenu2{ display: none;}
+#item2 {color:white;background-color: black;transition: 4s;}
+header{background-color: rgb(4, 149, 245); padding: 15px;}
+#item1:hover { background-color: red;}
+#item2:hover{ background-color: red;}
+h3 {background-color: red;}
+@media screen and (min-width:450px){
+    #menu{flex-direction: row; justify-content:space-around;}
+    #item1{margin-bottom: 0;}
+
+header h1{margin: 0 30%; margin-bottom:18px;}
+#wapper {margin: 0 20%;}main{display: flex; justify-content: center;}
+h3{ background-color: red; }
+
+}

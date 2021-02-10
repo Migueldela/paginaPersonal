@@ -1,0 +1,25 @@
+header h1 { display: flex; justify-content: center;color:white;background-color: black;}
+#menu{display:flex ; flex-direction: column;}
+.subMenu1 { display: none;}
+#item1:hover .subMenu1 {display: block;}
+#item1{color:white;background-color: black;transition: 4s; margin-bottom: 10px;}
+.subMenu1 a {color:white;}
+.subMenu2 a {color: white;}
+#item2:hover .subMenu2 {display: block;}
+.subMenu2{ display: none;}
+#item2 {color:white;background-color: black;transition: 4s;}
+header{background-color: rgb(4, 149, 245); padding: 15px;}
+#item1:hover { background-color: red;}
+#item2:hover{ background-color: red;}
+h3{ display: flex; justify-content: center;color: cornsilk;background-color: red;}
+@media screen and (min-width:450px){
+#menu{flex-direction: row; justify-content:space-around;}
+#item1{margin-bottom: 0;}
+.dosFilas{ display: flex; justify-content: space-between;border-color: black;border-width: 5px;border-style:double;}
+.medio{margin: 3px 30%; }
+#border1{border-color: black;border-width: 5px;border-style: inset;}
+#border2{border-color: black;border-width: 5px;border-style: inset;}
+#border3{border-color: black;border-width: 5px;border-style: inset;}
+h3 {margin:  0 30%;}
+h1{margin: 15px 30%;}
+}
